@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const connectToDb = require("./config/db");
 const userRoutes = require("./routes/userRoute");
 const blogRoutes = require("./routes/blogRouter");
-
+// please change the database connection string in you case
 // dotenv config
 dotenv.config();
 
